@@ -216,3 +216,39 @@ h3 {
     
 }
 /* Fim Página Projetos*/
+
+
+/* Início Página Mensagens*/
+
+
+.message-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  /* Responsividade */
+@media (min-width: 576px) {
+    /* Adaptação para telas menores que 576px */
+    .message-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* Margens laterais */
+  .message-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Fim Página Mensagens*/
